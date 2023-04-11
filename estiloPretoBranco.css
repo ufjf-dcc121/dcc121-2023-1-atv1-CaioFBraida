@@ -1,0 +1,16 @@
+header,
+footer {
+    padding: 2em 1em;
+    color: white;
+    background-color: black;
+}
+
+header li {
+    display: inline;
+    border: solid 1px;
+    padding: 0.5em;
+}
+
+header a {
+    color: aliceblue;
+}
