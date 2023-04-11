@@ -7,6 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogos jogados</title>
     <link rel="stylesheet" href="estiloPretoBranco.css">
+    <style>
+        .serie {
+            color: green;
+        }
+
+        .filmes {
+            color: blue;
+        }
+
+        .jogo {
+            color: orangered;
+        }
+        p > .jogo{
+            border-bottom: dashed ;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,10 +41,11 @@
 
         <p>tres ultimo jogo que joguei</p>
         <ol>
-            <li>xadrez</li>
-            <li>war</li>
-            <li>banco imobiliario</li>
+            <li class="jogo">xadrez</li>
+            <li class="jogo">war</li>
+            <li class="jogo">banco imobiliario</li>
         </ol>
+        <p>E o <span class="jogo">xadrez</span> foi meu preferido</p>
 
         <p>Filmes e Séries que assisti:</p>
         <ul>
@@ -37,9 +54,9 @@
 
                     <div>Filmes</div>
                     <ul>
-                        <li style="color: blue;">filme A</li>
-                        <li style="color: blue;">filme B</li>
-                        <li style="color: blue;">filme C</li>
+                        <li class="filmes">filme A</li>
+                        <li class="filmes">filme B</li>
+                        <li class="filmes">filme C</li>
                     </ul>
                 </div>
             </li>
@@ -48,9 +65,9 @@
                 <div>
 
                     <div>Séries</div>
-                    <ul style="color: green;"">
-                        <li>serie X</li>
-                        <li>serie Y</li>
+                    <ul>
+                        <li class="serie">serie X</li>
+                        <li class="serie">serie Y</li>
                     </ul>
                 </div>
             </li>
